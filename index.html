@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Sueldo</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/img/icon.png">
+</head>
+<body>
+    <header>
+        <h1>Calculadora Sueldo Gastronomico</h1>
+    </header>
+    <div class="container__input">
+        <input type="number" placeholder="Categoria" id="categoria" min="1" max="7">
+        <input type="number" placeholder="Establecimiento" id="establecimiento" min="1" max="5">
+        <input type="number" placeholder="Antiguedad" id="antiguedad" min="1" max="30">
+        <input type="number" placeholder="Mes" id="mes" min="1" max="12">
+        <button class="button" id="button">Cargar</button>
+    </div>
+    <div class="container__resultados">
+        <div class="container__resultados__box">
+            <h2>Basico</h2>
+            <h2 id="basico">$ 0</h2>
+        </div>
+        <div class="container__resultados__box">
+            <h2>Bruto</h2>
+            <h2 id="bruto">$ 0</h2>
+        </div>
+        <div class="container__resultados__box">
+            <h2>No remunerativo</h2>
+            <h2 id="no-remunerativo">$ 0</h2>
+        </div>
+        <div class="container__resultados__box">
+            <h2>Neto</h2>
+            <h2 id="neto">$ 0</h2>
+        </div>
+    </div>
+    <footer>
+        <h3>Proximamente horas extras, feriados y SAC</h3>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
