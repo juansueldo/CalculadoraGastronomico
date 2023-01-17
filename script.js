@@ -60,14 +60,11 @@ class Sueldo{
         if(categoria == 5 && establecimiento == 2){
             switch(mes){
                 case 5:
+                case 6:
+                case 7:
                     basico = 145268;
                     break;
-                case 6:
-                    basico = 56541;
-                    break;
-                case 7:
-                    basico = 70394;
-                    break;
+
                 case 8:
                 case 9:
                 case 10:
