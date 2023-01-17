@@ -126,7 +126,7 @@ class Sueldo{
                     break;
                 case 3:
                 case 4:
-                    noRemunerativo = 52583;
+                    noRemunerativo = 118312;
                     break;
                 case 9:
                 case 10:
