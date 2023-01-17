@@ -60,7 +60,7 @@ class Sueldo{
         if(categoria == 5 && establecimiento == 2){
             switch(mes){
                 case 5:
-                    basico = 140222;
+                    basico = 145268;
                     break;
                 case 6:
                     basico = 56541;
@@ -116,19 +116,20 @@ class Sueldo{
         let noRemunerativo = 0;
         if(categoria == 5 && establecimiento == 2){
             switch(mes){
+                case 5:
                 case 6:
-                    noRemunerativo = 27705;
-                    break;
                 case 7:
-                    noRemunerativo = 17245;
+                    noRemunerativo = 24539;
                     break;
                 case 1:
                 case 2:
                     noRemunerativo = 49077;
                     break;
                 case 3:
+                    noRemunerativo = 70111;
+                    break;
                 case 4:
-                    noRemunerativo = 118312;
+                    noRemunerativo = 77998;
                     break;
                 case 9:
                 case 10:
